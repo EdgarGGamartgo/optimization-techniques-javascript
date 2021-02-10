@@ -1,0 +1,30 @@
+//-----------------------------
+//Longhand 
+let test1, test2, test3;
+test1 = 1;
+test2 = 2;
+test3 = 3;//Shorthand 
+let [test1, test2, test3] = [1, 2, 3];
+
+// -------------------------------
+//Longhand 
+if (test1) {
+ callMethod(); 
+} //Shorthand 
+test1 && callMethod();
+//------------------------------
+Decimal base exponents
+// Longhand
+for (var i = 0; i < 10000; i++) { ... }
+
+// Shorthand
+for (var i = 0; i < 1e4; i++) {
+
+// --------------
+Bitwise IndexOf Shorthand
+//longhandif(arr.indexOf(item) > -1) { // item found }if(arr.indexOf(item) === -1) { // item not found}//shorthandif(~arr.indexOf(item)) { // item found}if(!~arr.indexOf(item)) { // item not found}
+
+//-----------------------
+
+REFERENCE
+https://medium.com/javascript-in-plain-english/34-javascript-optimization-techniques-to-know-in-2021-d561afdf73c3

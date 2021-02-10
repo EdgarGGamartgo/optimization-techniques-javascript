@@ -1,0 +1,11 @@
+const ifMultipleConditions = require('./techniques/if-multiple-conditions')
+const declaringVariables = require('./techniques/declaring-variables')
+const nullUndefinedEmptyChecks = require('./techniques/null-undefined-empty-checks')
+const nullishCoalescingOperator = require('./techniques/nullish-coalescing-operator')
+const stringIntoNumber = require('./techniques/stringIntoNumber')
+
+stringIntoNumber()
+nullishCoalescingOperator()
+nullUndefinedEmptyChecks()
+ifMultipleConditions()
+declaringVariables()
